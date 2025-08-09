@@ -14,6 +14,16 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+.sp-portfolio-item h4 {
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.sp-portfolio-item p {
+    font-size: 18px;
+    margin: 12px 0 0;
+    line-height: 26px;
+}
 .sp-portfolio-item {
     border: 1px solid #ddd;
     padding: 15px;
