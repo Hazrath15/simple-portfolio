@@ -39,6 +39,7 @@ if( !class_exists('SP_Create_Shortcode') ) {
 
             $total_pages = $query->max_num_pages;
 
+            echo '<div class="button-wrapper">';
             if ($total_pages > 1) {
                 echo '<button id="sp-loadmore-btn" 
                         data-page="1" 
@@ -48,6 +49,7 @@ if( !class_exists('SP_Create_Shortcode') ) {
                         Load More
                     </button>';
             }
+            echo '</div>';
 
             wp_reset_postdata();
             return ob_get_clean();

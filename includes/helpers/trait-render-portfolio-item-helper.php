@@ -7,7 +7,7 @@ trait SP_Render_Portfolio_Item_Helper {
 
         echo '<div class="sp-portfolio-item">';
         if (has_post_thumbnail()) the_post_thumbnail('medium');
-        echo '<h3>' . get_the_title() . '</h3>';
+        echo '<h4>' . get_the_title() . '</h4>';
         if ($client) echo '<p><strong>Client:</strong> ' . esc_html($client) . '</p>';
         if ($url) echo '<p><a href="' . esc_url($url) . '" target="_blank">Project Link</a></p>';
         echo '</div>';

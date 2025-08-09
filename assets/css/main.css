@@ -12,4 +12,31 @@
 .sp-portfolio-item img {
     max-width: 100%;
     height: auto;
+    margin-bottom: 16px;
+}
+
+.button-wrapper {
+    text-align: center;
+    button {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #45a049;
+        transform: translateY(-2px);
+    }
+
+    button:active {
+        transform: translateY(0);
+    }
+
 }
